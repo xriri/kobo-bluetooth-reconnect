@@ -1,0 +1,1 @@
+ACTION=="add", KERNEL=="mmcblk0p12", RUN+="/bin/sh -c 'sleep 15 && /usr/local/Kobo/bt-reconnect.sh &'"
